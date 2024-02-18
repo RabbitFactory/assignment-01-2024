@@ -66,142 +66,174 @@
   margin-bottom: 30px;
 }
 
-
 /* midnight party section*/
 
-.midnight_party_section
-{
-    height: 500px;
-    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url('../images/midnight\ party/Vectorrr.png');
+.midnight_party_section {
+  height: 500px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url("../images/midnight\ party/Vectorrr.png");
 
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-around;
-    padding: ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 20px 110px;
-    height: 766px;
-    border-radius: 18px;
-} 
-
-.midnight_title
-{
-    font-size: 60px;
-    font-weight: 500;
-}
-.midnight_description
-{
-    color: rgb(212, 212, 212);
-    margin: 20px 0px;
-    line-height: 30px;
-} 
-
-.midnight_button
-{
-    border-radius: 30px;
-    padding: 50px;
-    color: white;
-    background-color: black;
-    border: 0;
-    font-size: 20px;
-    font-weight: 600;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  padding: ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px 110px;
+  height: 766px;
+  border-radius: 18px;
 }
 
+.midnight_title {
+  font-size: 60px;
+  font-weight: 500;
+}
+.midnight_description {
+  color: rgb(212, 212, 212);
+  margin: 20px 0px;
+  line-height: 30px;
+}
+
+.midnight_button {
+  border-radius: 30px;
+  padding: 50px;
+  color: white;
+  background-color: black;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 /*new park section*/
 
 .new_park_hotel_container {
-    background: linear-gradient(to bottom, #FFE7E7, #FFFFFF);
-    margin: 100px 110px;
-    border-radius: 20px;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background: linear-gradient(to bottom, #ffe7e7, #ffffff);
+  margin: 100px 110px;
+  border-radius: 20px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new_park_hotel_container span {
+    color: red;
 }
 
 .new_park_hotel_container p {
-    font-size: 40px;
-    font-weight: 600;
-    margin: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px;
 }
 
 .new_park_hotel_container button {
-    padding: 30px 60px;
-    border: 0;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 30px;
+  padding: 30px 60px;
+  border: 0;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px;
 }
-
 
 /* newsletter */
 
-.newsletter_container
-{
-    background: #fff3f3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 110px;
-    padding: 100px;
-    border-radius: 20px;
+.newsletter_container {
+  background: #fff3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 110px;
+  padding: 100px;
+  border-radius: 20px;
 }
-.newsletter_container p 
-{
-    line-height: 30px;
-    margin: 50px;
+.newsletter_container p {
+  line-height: 30px;
+  margin: 50px;
 }
 
-.news_title
-{
-    font-size: 50px;
-    font-weight: 600;
+.news_title {
+  font-size: 50px;
+  font-weight: 600;
 }
-.news_description
-{
-    color: rgb(160, 160, 160);
-    font-size: 20px;
+.news_description {
+  color: rgb(160, 160, 160);
+  font-size: 20px;
 }
 
-
-.newsletter_searchbar
-{
-    display: flex;
-    gap: 0px;
-
+.newsletter_searchbar {
+  display: flex;
+  gap: 0px;
 }
-.newsletter_searchbar  button
-{
-    padding: 30px 60px;
-    border: 0;
-    border-radius: 0px 50px 50px 0px;
-    background-color: red;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 30px;
-    margin-left: 0px;
+.newsletter_searchbar button {
+  padding: 30px 60px;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px;
+  margin-left: 0px;
 }
-.newsletter_searchbar input
-{
-    margin: 30px;
-    margin-right: 0px;
-    border: 0px;
-    border-radius: 50px 0px 0px 50px;
-    padding: 40px;
-    width: 400px;
-    font-size: 20px;
+.newsletter_searchbar input {
+  margin: 30px;
+  margin-right: 0px;
+  border: 0px;
+  border-radius: 50px 0px 0px 50px;
+  padding: 40px;
+  width: 400px;
+  font-size: 20px;
 }
 
 .newsletter_searchbar input::placeholder {
-    color: #d3d3d3;
+  color: #d3d3d3;
+}
+
+
+
+
+/*gifts section*/
+
+.awesome_container {
+    margin: 110px;
+}
+.awesome_container p 
+{
+    margin: 25px 0px;
+}
+
+.awesome_container_sup_title {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.awesome_container_title
+{
+    font-size: 70px;
+}
+.awesome_container_description
+{
+    color: #9c9c9c;
+}
+
+
+.awesome_pictures{
+    display: flex;
+    gap: 30px;
+    height: 580px;
+}
+
+.awesome_pictures_container
+{
+    /* display: flex; */
+}
+
+.extra
+{
+    margin-top: 30px;
 }
