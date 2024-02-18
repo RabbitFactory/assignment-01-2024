@@ -68,3 +68,42 @@
 
 /* midnight party section*/
 
+.midnight_party_section
+{
+    height: 500px;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url('../images/midnight\ party/Vectorrr.png');
+
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px 110px;
+    height: 766px;
+    border-radius: 18px;
+} 
+
+.midnight_title
+{
+    font-size: 60px;
+    font-weight: 500;
+}
+.midnight_description
+{
+    color: rgb(212, 212, 212);
+    margin: 20px 0px;
+    line-height: 30px;
+} 
+
+.midnight_button
+{
+    border-radius: 30px;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
