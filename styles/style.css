@@ -10,17 +10,16 @@
 
 .happy_new_year_container {
 background: rgba(0, 0, 0, 0.5) url('../images/Banner\ Image.png');
-background-size: cover;
+background-size: contain;
 background-repeat: no-repeat;
 background-blend-mode: darken;
 margin: 30px 90px;
-
-
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height: 600px;
+height: 784px;
+border-radius: 18px;
 }
 
 
