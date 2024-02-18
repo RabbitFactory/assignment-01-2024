@@ -1,0 +1,56 @@
+footer
+{
+    background-color: #070211;
+}
+
+footer p
+{
+    color: white;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.number_container
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.website_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer_down
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.footer_icons
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 0px;
+}
+
+footer  hr
+{
+    border-color: #080707;
+
+}
+
+.footer_contents
+{
+    margin: 0px 100px;
+} 
