@@ -303,3 +303,80 @@
   max-width: 650px;
   height: auto;
 }
+
+
+
+
+
+
+
+
+
+/* coming_soon_container */
+
+.coming_soon_container
+{
+  display: flex;
+  margin: 110px;
+  align-items: center;
+}
+.left_most_child
+{
+  flex: 38%;
+}
+.right_most_child
+{
+  flex: 31%;
+}
+.mid_child
+{
+  flex: 31%;
+  
+}
+.inner_mid
+{
+  border: 15px solid red;
+  border-radius: 50%;
+  width: fit-content;
+}
+.circle_image
+{
+  border: 25px solid transparent;
+  border-radius: 50%;
+}
+
+
+.new_offer
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+.coming_soon_title
+{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 10px 0px 20px 0px;
+}
+
+.coming_soon_description
+{
+  color: #9c9c9c;
+  max-width: 60%;
+}
+
+.year
+{
+  color: red;
+  font-size: 40px;
+  font-weight: 700;
+}
+.year_desc
+{
+  color: #9c9c9c;
+  max-width: 50%;
+}
+.right_most_child p 
+{
+  margin-bottom: 20px;
+}
