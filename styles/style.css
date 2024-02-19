@@ -237,3 +237,69 @@
 {
     margin-top: 30px;
 }
+
+.holiday_title
+{
+  font-size: 80px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.holiday_title span 
+{
+  color: red;
+
+}
+.holiday_sup_title
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.holiday_text
+{
+  text-align: center;
+}
+
+
+
+/* holiday section */
+.holiday_image
+{
+  display: flex;
+  margin-top: 50px;
+}
+.left_side
+{
+  flex: 60%;
+}
+.right_side
+{
+  flex: 40%;
+}
+.right_side
+{
+  position: relative;
+}
+.sticker
+{
+  position: absolute;
+  left: -150px;
+  top: 70px;
+}
+
+.red_image
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: -80px;
+  margin-top: -4px;
+}
+.surprise_box
+{
+  position: absolute;
+  top: -330px;
+  left: 340px;
+  max-width: 650px;
+  height: auto;
+}
